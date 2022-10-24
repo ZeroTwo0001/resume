@@ -1,0 +1,94 @@
+img {
+    border-radius: 50%;
+    height: 15rem;
+    margin: 1rem;
+    border: 10px solid white;
+  }
+  
+  hr {
+    border: 3px solid black;
+    margin: auto 5%;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  h2 {
+    display: flex;
+    font-family: Bebas;
+    justify-content: space-between;
+  }
+  
+  ul {
+    margin-bottom: 5em;
+    font-family: sans-serif;
+  }
+  
+  table {
+    border: 1px solid black;
+  }
+  
+  thead {
+    background-color: black;
+    color: #fff
+  }
+  
+  form {
+    font-family: sans-serif;
+    font-style: normal;
+  }
+  
+  .container {
+    margin: 3% 5%;
+  }
+  
+  .paragraphLine {
+    border: 2px solid black;
+    margin: 1rem;
+    width: 90%;
+  }
+  
+  .profile {
+    text-align: center;
+    background-color: #BDE0FE;
+    padding-bottom: 1rem;
+    border-radius: 2rem;
+  }
+  
+  .crossDiv, #spaceDisplay, #centerDisplay {
+    display: flex;
+  }
+  
+  .middle-container {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+  }
+  
+  .bottom-container {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  .crossDiv {
+    height: 600px;
+    width: 600px;
+    flex-direction: column;
+  }
+  
+  #spaceDisplay {
+    justify-content: space-between;
+  }
+  
+  #centerDisplay {
+    justify-content: center;
+  }
+  
+  #noneborder {
+    border: 1px solid white;
+  }

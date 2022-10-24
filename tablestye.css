@@ -1,0 +1,37 @@
+h1{
+    margin-top: 0;
+    font-family: 'Alex Brush', cursive;
+  }
+  body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+  }
+  
+  .top-container{
+    background-color: #a6efaf;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  .bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+  }
+  
+  .top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+  }
+
+  dt {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+dd {
+   margin-left:0;
+}
+  
