@@ -1,20 +1,115 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>My contact</title>
-    </head>
-    <body>
-        <p>E-mail: Kittiphongtwo2544@gmail.com</p>
-        <p>Tel: 0984139679</p>
-        <p> Thai, nontaburi</p>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact me 📌</title>
+    <link rel="icon" href="Image/song.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="master.css" />
+  </head>
 
-    </body>
-    <form>
-        <input type="button" value="Go back!" onclick="history.back()">
-    </form>
-
-
-
-
+  <body class="content-body">
+    <nav class="navbar navbar-expand-lg bg-light shadow-lg bg-body sticky-top">
+      <div class="container-fluid">
+        <img
+          src="Image/song.jpg"
+          class="navbar-brand"
+          id="icon-palmtree"
+          height="50"
+        />
+        <span class="navbar-brand mb-0 h1">Kittiphong Yangyangyuen</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5 p-5 shadow p-3 mb-5 bg-body rounded text-body">
+      <h2>Contact by</h2>
+      <ol style="margin: 1rem">
+        <div class="row row-cols-2 w-50">
+          <p class="col">📞 Phone number :</p>
+          <p class="col">098-413-9679</p>
+          <p class="col">📧 Mail :</p>
+          <p class="col">Kittiphongtwo@gmail.com</p>
+        </div>
+      </ol>
+      <hr class="border border-white opacity-100" />
+      <h2>Send Contact</h2>
+      <form action="mailto: 6352300421@stu.ac.th" method="post">
+        <ul>
+          <li>
+            <label for="exampleFormControlInputName" class="form-label"
+              >Name</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInputName"
+              placeholder="input your name"
+            />
+          </li>
+          <li class="my-3">
+            <label for="exampleFormControlInputEmail" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInputEmail"
+              placeholder="input your mail"
+            />
+          </li>
+          <li class="my-3">
+            <label for="exampleFormControlTextarea" class="form-label"
+              >Message to</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea"
+              rows="3"
+              placeholder="input message"
+            ></textarea>
+          </li>
+        </ul>
+        <div class="d-flex justify-content-between">
+          <button
+            type="button"
+            class="btn btn-success"
+            onclick="history.back()"
+          >
+            ↩ Back
+          </button>
+          <button type="submit" class="btn btn-success">Submit →</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
